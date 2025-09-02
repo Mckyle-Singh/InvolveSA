@@ -1,1 +1,29 @@
-﻿
+﻿# Visual Studio workspace
+.vs/
+*.suo
+*.user
+*.cache
+*.log
+
+# Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Debug and release folders
+Debug/
+Release/
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS-specific
+Thumbs.db
+.DS_Store
