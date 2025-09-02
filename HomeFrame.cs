@@ -1,8 +1,8 @@
 namespace InvolveSA
 {
-    public partial class Form1 : Form
+    public partial class HomeFrame : Form
     {
-        public Form1()
+        public HomeFrame()
         {
             InitializeComponent();
         }
@@ -11,5 +11,20 @@ namespace InvolveSA
         {
 
         }
+        private void btnResponseIssue_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Report Issues clicked");
+        }
+
+        private void btnServiceRequests_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Service Requests clicked");
+        }
+
+        private void btnLocalEvents_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Local Events clicked");
+        }
+
     }
 }
