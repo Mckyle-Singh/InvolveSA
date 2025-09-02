@@ -16,5 +16,25 @@ namespace InvolveSA.Views
         {
             InitializeComponent();
         }
+
+        private void ReportIssue_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlMapPlaceholder_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlMapPlaceholder_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -1,3 +1,5 @@
+using InvolveSA.Views;
+
 namespace InvolveSA
 {
     public partial class HomeFrame : Form
@@ -13,7 +15,8 @@ namespace InvolveSA
         }
         private void btnResponseIssue_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Report Issues clicked");
+            var reportView = new ReportIssue();
+            ShowControl(reportView);
         }
 
         private void btnServiceRequests_Click_1(object sender, EventArgs e)
@@ -24,6 +27,13 @@ namespace InvolveSA
         private void btnLocalEvents_Click_1(object sender, EventArgs e)
         {
             MessageBox.Show("Local Events clicked");
+        }
+
+        private void ShowControl(UserControl ctl)
+        {
+            pnlContent.Controls.Clear();
+            ctl.Dock = DockStyle.Fill;
+            pnlContent.Controls.Add(ctl);
         }
 
     }
