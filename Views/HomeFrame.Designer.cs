@@ -38,7 +38,7 @@
             // 
             // NavPanel
             // 
-            NavPanel.BackColor = Color.CornflowerBlue;
+            NavPanel.BackColor = Color.FromArgb(51, 51, 76);
             NavPanel.Controls.Add(btnLocalEvents);
             NavPanel.Controls.Add(btnServiceRequests);
             NavPanel.Controls.Add(btnResponseIssue);
@@ -55,10 +55,10 @@
             btnLocalEvents.FlatAppearance.BorderSize = 0;
             btnLocalEvents.FlatStyle = FlatStyle.Flat;
             btnLocalEvents.Font = new Font("Segoe UI", 10F);
-            btnLocalEvents.Location = new Point(0, 44);
+            btnLocalEvents.Location = new Point(0, 75);
             btnLocalEvents.Margin = new Padding(3, 2, 3, 2);
             btnLocalEvents.Name = "btnLocalEvents";
-            btnLocalEvents.Size = new Size(185, 22);
+            btnLocalEvents.Size = new Size(185, 32);
             btnLocalEvents.TabIndex = 2;
             btnLocalEvents.Text = "Local Events ";
             btnLocalEvents.UseVisualStyleBackColor = true;
@@ -70,10 +70,10 @@
             btnServiceRequests.FlatAppearance.BorderSize = 0;
             btnServiceRequests.FlatStyle = FlatStyle.Flat;
             btnServiceRequests.Font = new Font("Segoe UI", 10F);
-            btnServiceRequests.Location = new Point(0, 22);
+            btnServiceRequests.Location = new Point(0, 39);
             btnServiceRequests.Margin = new Padding(3, 2, 3, 2);
             btnServiceRequests.Name = "btnServiceRequests";
-            btnServiceRequests.Size = new Size(185, 22);
+            btnServiceRequests.Size = new Size(185, 36);
             btnServiceRequests.TabIndex = 1;
             btnServiceRequests.Text = "Service Requests";
             btnServiceRequests.UseVisualStyleBackColor = true;
@@ -89,7 +89,7 @@
             btnResponseIssue.Location = new Point(0, 0);
             btnResponseIssue.Margin = new Padding(3, 2, 3, 2);
             btnResponseIssue.Name = "btnResponseIssue";
-            btnResponseIssue.Size = new Size(185, 22);
+            btnResponseIssue.Size = new Size(185, 39);
             btnResponseIssue.TabIndex = 0;
             btnResponseIssue.Text = "Report Issues";
             btnResponseIssue.UseVisualStyleBackColor = true;
