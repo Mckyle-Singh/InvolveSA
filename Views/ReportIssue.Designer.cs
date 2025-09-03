@@ -56,7 +56,6 @@
             pnlMapPlaceholder.Name = "pnlMapPlaceholder";
             pnlMapPlaceholder.Size = new Size(340, 180);
             pnlMapPlaceholder.TabIndex = 5;
-            pnlMapPlaceholder.Paint += pnlMapPlaceholder_Paint_1;
             // 
             // lblTitle
             // 
@@ -114,6 +113,16 @@
             btnSubmit.Text = "Submit";
             btnSubmit.UseVisualStyleBackColor = true;
             // 
+            // btnViewReports
+            // 
+            btnViewReports = new Button();
+            btnViewReports.Location = new Point(10, 325);  // left of Submit
+            btnViewReports.Size = new Size(120, 30);
+            btnViewReports.Text = "View Reports";
+            btnViewReports.UseVisualStyleBackColor = true;
+            Controls.Add(btnViewReports);
+            btnViewReports.ForeColor = SystemColors.MenuText;
+            // 
             // ReportIssue
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -145,5 +154,9 @@
         private RichTextBox rtbDescription;
         private Label lblDescription;
         private Button btnSubmit;
+        private Button btnViewReports;
+
+
+
     }
 }
